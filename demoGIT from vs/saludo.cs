@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace demoGIT_from_vs
 {
-    class Program
+    class saludo
     {
-        static void Main(string[] args)
-        {
-            var saludo = new saludo();
-            Console.WriteLine(saludo.mensaje);
+        public string mensaje { get; set; }
 
+        public saludo()
+        {
+            mensaje = "hola desde visual estudio";
         }
     }
 }
