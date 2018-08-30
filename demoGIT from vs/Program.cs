@@ -13,6 +13,7 @@ namespace demoGIT_from_vs
             var saludo = new saludo();
             Console.WriteLine(saludo.mensaje);
 
+            Console.ReadKey();
         }
     }
 }
